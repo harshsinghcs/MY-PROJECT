@@ -6,7 +6,7 @@ Animated text is a normal type of text with animated internal background.
 ![animated Hii](https://github.com/harshsinghcs/MY-PROJECT/assets/115187902/a372f18a-041a-4284-87e5-af8da9cfb7f4)
 
 ## Solar System
-(made by my friend @khushk01) <br>
+(made by my friend @khushk01)<br>http://github.com/khushk01<br>
 Solar System is normal solar system with animation.
 
 ![Screenshot (29)](https://github.com/harshsinghcs/MY-PROJECT/assets/115187902/f0eb6563-7e71-40be-910c-6563f8002471)
