@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assigment</title>
+    <style>
+      /* Styling for the left panel */
+      .left-panel {
+        width: 100%;
+        background-color: #f2d2d2;
+        float: left;
+      }
+
+      /* Styling for the content area */
+      .content {
+        width: 80%;
+        float: left;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-panel">
+      <!-- Left panel navigation -->
+      <ul>
+        <li><a href="#" onclick="showContent('home')">Home</a></li>
+        <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+        <li>
+          <a href="#" onclick="showContent('information')">Information</a>
+        </li>
+        <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+      </ul>
+    </div>
+
+    <div class="content" id="content">
+      <!-- Content area -->
+      <h1>Welcome to my website!</h1>
+      <p>This is the content.</p>
+    </div>
+
+    <script>
+      // Function to show content based on the selected component
+      function showContent(component) {
+        var contentDiv = document.getElementById("content");
+
+        // Update the content based on the selected component
+        if (component === "home") {
+          contentDiv.innerHTML = "<h1>Home</h1><p>Home content goes here.</p>";
+        } else if (component === "contact") {
+          contentDiv.innerHTML =
+            "<h1>Contact</h1><p>Contact information goes here.</p>";
+        } else if (component === "information") {
+          contentDiv.innerHTML =
+            "<h1>Information</h1><p>Information content goes here.</p>";
+        } else if (component === "guide") {
+          contentDiv.innerHTML =
+            "<h1>Guide</h1><p>Guide content goes here.</p>";
+        }
+      }
+    </script>
+  </body>
+</html>
